@@ -1,0 +1,15 @@
+[Adblock Plus 2.0]
+! Version: 1.0
+! Title: GoPlay Anti-AdBlock Bypass
+! Description: Bypass GoPlay Anti-Adblock
+! Last modified: Mon, 06 Apr 2026 08:12:22 +0000
+! Expires: 4 days (update frequency)
+! Homepage:
+!
+! April 06, 2026 https://goplay.ml 
+goplay.ml##+js(prevent-window-open, !addons.mozilla.org)
+goplay.ml##+js(noeval-if, innerHTML)
+goplay.ml##+js(remove-cookie, /abd/)
+goplay.ml#@#+js(json-prune, *, rot_url)
+! April 06, 2026 https://goplay.su
+goplay.su#@#+js(json-prune, *, rot_url)
