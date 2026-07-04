@@ -1,0 +1,15 @@
+[Adblock Plus 2.0]
+! Version: 1.0
+! Title: anime.uniquestream.net Annoyances (AdGuard)
+! Description: Filters for anime.uniquestream.net
+! Last modified: Mon, 06 Apr 2026 08:12:22 +0000
+! Expires: 4 days (update frequency)
+! Homepage:
+!
+! April 06, 2026 https://anime.uniquestream.net
+/\/[0-9a-z]{2}\/[0-9a-f]{32}\.js/$script,xhr,third-party,match-case,method=get,to=com,from=uniquestream.net
+uniquestream.net#%#//scriptlet('set-constant', '__US_CONFIG__.ads.adblock_measure_enabled', 'false')
+uniquestream.net#%#//scriptlet('set-constant', '__US_CONFIG__.ads.adblock_wall_enabled', 'false')
+uniquestream.net#%#//scriptlet('set-constant', '__US_CONFIG__.ads.urls', 'undefined')
+||anime.uniquestream.net/api/v*/config
+@@||uniquestream.net^$generichide
