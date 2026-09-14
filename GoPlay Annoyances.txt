@@ -1,0 +1,11 @@
+[Adblock Plus 2.0]
+! Version: 1.0
+! Title: GoPlay Annoyances (AdGuard)
+! Description: Filters for GoPlay
+! Last modified: Mon, 06 Apr 2026 08:12:22 +0000
+! Expires: 4 days (update frequency)
+! Homepage:
+!
+! April 06, 2026 https://goplay.su, https://goplay.ml
+goplay.su#@%#//scriptlet("json-prune", "*", "rot_url")
+goplay.ml#@%#//scriptlet("json-prune", "*", "rot_url")
